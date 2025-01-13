@@ -22,18 +22,18 @@ Welcome to **FoodApp**, an in progress mobile application built with .NET MAUI t
 5. **Cancel Order**: If the meal is being prepared, you can cancel the order by tapping the "Cancel" button.
      ![Cancel Order](ReadmeImages/Cancel.png)
 6. **Collect Meal**: Once your meal is ready, tap the "Collect" button to complete the process.
-     ![Collect Meal](ReadmeImages/WelcomeScreen.png)
+     ![Collect Meal](ReadmeImages/Collect.png)
 7. **Thank you!**: Your order is now collect. Thank you for using FoodApp!
      ![Thank you](ReadmeImages/ThankYou.png)
 
    You can make multiple orders at once.
-    ![Multiple Orders](ReadmeImages/MultipleOrders.png)
+    ![Multiple Orders](ReadmeImages/MutipleOrders.png)
 
    You can collect multiple orders.
-    ![Multiple Collect](ReadmeImages/MultipleCollect.png)
+    ![Multiple Collect](ReadmeImages/MutlipleCollect.png)
 
    You can cancel multiple orders.
-    ![Multiple Cancel](ReadmeImages/MultipleCancel.png)
+    ![Multiple Cancel](ReadmeImages/MutlipleCancel.png)
 
 
 ## How to Clone and Run the Project from GitHub 🔧

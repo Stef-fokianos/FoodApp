@@ -27,12 +27,15 @@ Welcome to **FoodApp**, an in progress mobile application built with .NET MAUI t
      ![Thank you](ReadmeImages/ThankYou.png)
 
    You can make multiple orders at once.
+   
     ![Multiple Orders](ReadmeImages/MutipleOrders.png)
 
    You can collect multiple orders.
+   
     ![Multiple Collect](ReadmeImages/MutlipleCollect.png)
 
    You can cancel multiple orders.
+   
     ![Multiple Cancel](ReadmeImages/MutlipleCancel.png)
 
 

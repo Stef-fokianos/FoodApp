@@ -39,7 +39,7 @@ Welcome to **FoodApp**, an in progress mobile application built with .NET MAUI t
     ![Multiple Cancel](ReadmeImages/MutlipleCancel.png)
 
 
-## How to Clone and Run the Project from GitHub 🔧
+## How to Clone and Run the Project from GitHub
 
 Follow these steps to clone and run the project on your local machine:
 

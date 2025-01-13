@@ -13,26 +13,26 @@ Welcome to **FoodApp**, an in progress mobile application built with .NET MAUI t
 ## How to Use the App
 
 1.  **Welcome**: The user is greeded with a Welcome Page
-     ![Welcome](images/WelcomeScreen.png)
+     ![Welcome](ReadmeImages/WelcomeScreen.png)
 2.  **Browse the Menu**: Open the app to view a categorized list of food items.
-     ![Menu](images/MenuScreen.png)
+     ![Menu](ReadmeImages/MenuScreen.png)
 3. **Order**: Tap the "Order" button next to your chosen food item.
-     ![Order](images/Order.png)
+     ![Order](ReadmeImages/Order.png)
 4. **Cancel Order**: If the meal is being prepared, you can cancel the order by tapping the "Cancel" button.
-     ![Cancel Order](images/Cancel.png)
+     ![Cancel Order](ReadmeImages/Cancel.png)
 5. **Collect Meal**: Once your meal is ready, tap the "Collect" button to complete the process.
-     ![Collect Meal](images/WelcomeScreen.png)
+     ![Collect Meal](ReadmeImages/WelcomeScreen.png)
 6. **Thank you!**: Your order is now collect. Thank you for using FoodApp!
-     ![Thank you](images/ThankYou.png)
+     ![Thank you](ReadmeImages/ThankYou.png)
 
    You can make multiple orders at once.
-    ![Multiple Orders](images/MultipleOrders.png)
+    ![Multiple Orders](ReadmeImages/MultipleOrders.png)
 
    You can collect multiple orders.
-    ![Multiple Collect](images/MultipleCollect.png)
+    ![Multiple Collect](ReadmeImages/MultipleCollect.png)
 
    You can cancel multiple orders.
-    ![Multiple Cancel](images/MultipleCancel.png)
+    ![Multiple Cancel](ReadmeImages/MultipleCancel.png)
 
 
 ## How to Clone and Run the Project from GitHub 🔧

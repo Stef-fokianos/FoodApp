@@ -15,15 +15,25 @@ Welcome to **FoodApp**, an in progress mobile application built with .NET MAUI t
 1.  **Welcome**: The user is greeded with a Welcome Page.
    
      ![Welcome](ReadmeImages/WelcomeScreen.png)
-3.  **Browse the Menu**: Open the app to view a categorized list of food items.
+    
+2.  **Browse the Menu**: Open the app to view a categorized list of food items.
+  
      ![Menu](ReadmeImages/MenuScreen.png)
-4. **Order**: Tap the "Order" button next to your chosen food item.
+    
+3. **Order**: Tap the "Order" button next to your chosen food item.
+
      ![Order](ReadmeImages/Order.png)
-5. **Cancel Order**: If the meal is being prepared, you can cancel the order by tapping the "Cancel" button.
+   
+4. **Cancel Order**: If the meal is being prepared, you can cancel the order by tapping the "Cancel" button.
+ 
      ![Cancel Order](ReadmeImages/Cancel.png)
-6. **Collect Meal**: Once your meal is ready, tap the "Collect" button to complete the process.
+    
+5. **Collect Meal**: Once your meal is ready, tap the "Collect" button to complete the process.
+ 
      ![Collect Meal](ReadmeImages/Collect.png)
-7. **Thank you!**: Your order is now collect. Thank you for using FoodApp!
+    
+6. **Thank you!**: Your order is now collect. Thank you for using FoodApp!
+
      ![Thank you](ReadmeImages/ThankYou.png)
 
    You can make multiple orders at once.

@@ -37,11 +37,13 @@ namespace FoodApp
             Meal meal = new Meal();
             var cancellationTokenSource = new CancellationTokenSource();
 
-            Button orderButton = (Button)sender;
-            StackLayout parentLayout = (StackLayout)orderButton.Parent.Parent;
-            Button cancelButton = lb.FindElement<Button>(parentLayout, "CancelButton");
-            Button collectButton = lb.FindElement<Button>(parentLayout, "CollectButton");
-            Label statusLabel = lb.FindElement<Label>(parentLayout, "StatusLabel");
+            Button orderButton = sender as Button;
+            StackLayout parentLayout = orderButton?.Parent?.Parent as StackLayout;
+
+            Button cancelButton = parentLayout != null ? lb.FindElement<Button>(parentLayout, "CancelButton") : null;
+            Button collectButton = parentLayout != null ? lb.FindElement<Button>(parentLayout, "CollectButton") : null;
+            Label statusLabel = parentLayout != null ? lb.FindElement<Label>(parentLayout, "StatusLabel") : null;
+
 
 
             //Make cancel button available
@@ -71,10 +73,12 @@ namespace FoodApp
         {
             ControlLabel lb = new ControlLabel();
 
-            Button cancelButton = (Button)sender;
-            StackLayout parentLayout = (StackLayout)cancelButton.Parent.Parent;
-            Button orderButton = lb.FindElement<Button>(parentLayout, "OrderButton");
-            Label statusLabel = lb.FindElement<Label>(parentLayout, "StatusLabel");
+            Button cancelButton = sender as Button;
+            StackLayout parentLayout = cancelButton?.Parent?.Parent as StackLayout;
+
+            Button orderButton = parentLayout != null ? lb.FindElement<Button>(parentLayout, "OrderButton") : null;
+            Label statusLabel = parentLayout != null ? lb.FindElement<Label>(parentLayout, "StatusLabel") : null;
+
 
             //Make Order button available 
             cancelButton.IsVisible = false;
@@ -95,11 +99,13 @@ namespace FoodApp
         {
             ControlLabel lb = new ControlLabel();
 
-            Button collectButton = (Button)sender;
-            StackLayout parentLayout = (StackLayout)collectButton.Parent.Parent;
-            Button orderButton = lb.FindElement<Button>(parentLayout, "OrderButton");
-            Label statusLabel = lb.FindElement<Label>(parentLayout, "StatusLabel");
-                
+            Button collectButton = sender as Button;
+            StackLayout parentLayout = collectButton?.Parent?.Parent as StackLayout;
+
+            Button orderButton = parentLayout != null ? lb.FindElement<Button>(parentLayout, "OrderButton") : null;
+            Label statusLabel = parentLayout != null ? lb.FindElement<Label>(parentLayout, "StatusLabel") : null;
+
+
             //Collect is pressed
 
             collectButton.IsVisible = false;

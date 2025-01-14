@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "b7mJDL6EsT0=",
+  "dgSpecHash": "0bjLB5JPbuA=",
   "success": true,
   "projectFilePath": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\Task6.8.csproj",
   "expectedPackageFiles": [
@@ -117,8 +117,8 @@
     "C:\\Users\\sf319\\.nuget\\packages\\microsoft.android.ref.34\\34.0.145\\microsoft.android.ref.34.34.0.145.nupkg.sha512",
     "C:\\Users\\sf319\\.nuget\\packages\\microsoft.android.runtime.34.android-arm\\34.0.145\\microsoft.android.runtime.34.android-arm.34.0.145.nupkg.sha512",
     "C:\\Users\\sf319\\.nuget\\packages\\microsoft.android.runtime.34.android-x86\\34.0.145\\microsoft.android.runtime.34.android-x86.34.0.145.nupkg.sha512",
-    "C:\\Users\\sf319\\.nuget\\packages\\microsoft.ios.runtime.ios-arm64.net8.0_18.0\\18.0.8316\\microsoft.ios.runtime.ios-arm64.net8.0_18.0.18.0.8316.nupkg.sha512",
     "C:\\Users\\sf319\\.nuget\\packages\\microsoft.ios.ref.net8.0_18.0\\18.0.8316\\microsoft.ios.ref.net8.0_18.0.18.0.8316.nupkg.sha512",
+    "C:\\Users\\sf319\\.nuget\\packages\\microsoft.ios.runtime.iossimulator-x64.net8.0_18.0\\18.0.8316\\microsoft.ios.runtime.iossimulator-x64.net8.0_18.0.18.0.8316.nupkg.sha512",
     "C:\\Users\\sf319\\.nuget\\packages\\microsoft.maccatalyst.runtime.maccatalyst-x64.net8.0_18.0\\18.0.8316\\microsoft.maccatalyst.runtime.maccatalyst-x64.net8.0_18.0.18.0.8316.nupkg.sha512",
     "C:\\Users\\sf319\\.nuget\\packages\\microsoft.maccatalyst.ref.net8.0_18.0\\18.0.8316\\microsoft.maccatalyst.ref.net8.0_18.0.18.0.8316.nupkg.sha512",
     "C:\\Users\\sf319\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.54\\microsoft.windows.sdk.net.ref.10.0.19041.54.nupkg.sha512"

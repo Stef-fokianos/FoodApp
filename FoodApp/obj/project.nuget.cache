@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0bjLB5JPbuA=",
+  "dgSpecHash": "rcXUWxaMXGk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\Task6.8.csproj",
+  "projectFilePath": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\FoodApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sf319\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\sf319\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

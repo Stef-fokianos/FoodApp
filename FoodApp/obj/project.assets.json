@@ -33055,9 +33055,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\Task6.8.csproj",
-      "projectName": "Task6.8",
-      "projectPath": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\Task6.8.csproj",
+      "projectUniqueName": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\FoodApp.csproj",
+      "projectName": "FoodApp",
+      "projectPath": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\FoodApp.csproj",
       "packagesPath": "C:\\Users\\sf319\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\obj\\",
       "projectStyle": "PackageReference",

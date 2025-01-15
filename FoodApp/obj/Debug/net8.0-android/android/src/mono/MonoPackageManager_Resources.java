@@ -1,8 +1,8 @@
 package mono;
 public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
-		/* We need to ensure that "Task6.8.dll" comes first in this list. */
-		"Task6.8.dll",
+		/* We need to ensure that "FoodApp.dll" comes first in this list. */
+		"FoodApp.dll",
 		"GoogleGson.dll",
 		"Microsoft.Extensions.Configuration.dll",
 		"Microsoft.Extensions.Configuration.Abstractions.dll",

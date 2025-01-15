@@ -1,9 +1,9 @@
-FoodApp.MainActivity, Task6.8;crc643e1fb8572abc99cc.MainActivity
-FoodApp.MainActivity;crc643e1fb8572abc99cc.MainActivity
-foodapp.MainActivity;crc643e1fb8572abc99cc.MainActivity
-FoodApp.MainApplication, Task6.8;crc643e1fb8572abc99cc.MainApplication
-FoodApp.MainApplication;crc643e1fb8572abc99cc.MainApplication
-foodapp.MainApplication;crc643e1fb8572abc99cc.MainApplication
+FoodApp.MainActivity, FoodApp;crc6441b3c2037e6803fd.MainActivity
+FoodApp.MainActivity;crc6441b3c2037e6803fd.MainActivity
+foodapp.MainActivity;crc6441b3c2037e6803fd.MainActivity
+FoodApp.MainApplication, FoodApp;crc6441b3c2037e6803fd.MainApplication
+FoodApp.MainApplication;crc6441b3c2037e6803fd.MainApplication
+foodapp.MainApplication;crc6441b3c2037e6803fd.MainApplication
 GoogleGson.IExclusionStrategy, GoogleGson;com.google.gson.ExclusionStrategy
 GoogleGson.IExclusionStrategy;com.google.gson.ExclusionStrategy
 com.google.gson.ExclusionStrategy;com.google.gson.ExclusionStrategy

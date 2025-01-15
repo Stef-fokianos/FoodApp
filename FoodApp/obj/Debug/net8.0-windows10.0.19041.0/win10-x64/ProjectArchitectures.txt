@@ -1,1 +1,1 @@
-C:\Users\sf319\Documents\FoodApp\FoodApp\Task6.8.csproj;x64
+C:\Users\sf319\Documents\FoodApp\FoodApp\FoodApp.csproj;x64

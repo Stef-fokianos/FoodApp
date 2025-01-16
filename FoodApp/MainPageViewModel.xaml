@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:FoodApp"
              x:Class="FoodApp.MainPageViewModel"
              BackgroundImageSource="main_page.jpg">
 
@@ -41,19 +42,17 @@
                                         Padding="10"
                                         HorizontalOptions="End"
                                         VerticalOptions="Center"
-                                        Margin="0,0,0,-10"
-                                        Grid.Column="1"/>
-                                    
-                                    <Button x:Name="CancelButton"
-                                        Text="Cancel"
+                                        MinimumHeightRequest="45"
+                                        CornerRadius="10"
+                                        Margin="0,0,0,-10"/>
+
+                                    <local:CustomCancelButton x:Name="CancelButton"
                                         Clicked="OnCancelClicked"
-                                        BackgroundColor="Red"
-                                        TextColor="White"
                                         Padding="10"
                                         HorizontalOptions="End"
                                         VerticalOptions="Center"
                                         Margin="0,0,0,-10"
-                                        Grid.Column="2"
+                                        MinimumHeightRequest="45"
                                         IsVisible="False"/>
                                     
                                     <Button x:Name="CollectButton"
@@ -64,8 +63,9 @@
                                         Padding="10"
                                         HorizontalOptions="End"
                                         VerticalOptions="Center"
-                                        Grid.Column="3"
                                         Margin="0,0,0,-10"
+                                        MinimumHeightRequest="45"
+                                        CornerRadius="10"
                                         IsVisible="False"/>
                                 </Grid>
                                 <Label x:Name="StatusLabel"

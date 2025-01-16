@@ -40,7 +40,7 @@ namespace FoodApp
             Button orderButton = sender as Button;
             StackLayout parentLayout = orderButton?.Parent?.Parent as StackLayout;
 
-            Button cancelButton = parentLayout != null ? lb.FindElement<Button>(parentLayout, "CancelButton") : null;
+            CustomCancelButton cancelButton = parentLayout != null ? lb.FindElement<CustomCancelButton>(parentLayout, "CancelButton") : null;
             Button collectButton = parentLayout != null ? lb.FindElement<Button>(parentLayout, "CollectButton") : null;
             Label statusLabel = parentLayout != null ? lb.FindElement<Label>(parentLayout, "StatusLabel") : null;
 
@@ -86,7 +86,7 @@ namespace FoodApp
         {
             ControlLabel lb = new ControlLabel();
 
-            Button cancelButton = sender as Button;
+            CustomCancelButton cancelButton = sender as CustomCancelButton;
             StackLayout parentLayout = cancelButton?.Parent?.Parent as StackLayout;
 
             Button orderButton = parentLayout != null ? lb.FindElement<Button>(parentLayout, "OrderButton") : null;

@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace FoodApp
 {
-    class CustomCancelButton : Button
+    class CustomButton : Button
+    {
+
+        public CustomButton()
+        {
+            this.CornerRadius = 10;
+        }
+
+ 
+
+      
+    }
+
+    class CustomCancelButton : CustomButton
     {
 
         public CustomCancelButton()
@@ -14,18 +27,19 @@ namespace FoodApp
             this.Text = "Cancel";
             this.BackgroundColor = Color.FromRgb(255, 0, 0);
             this.TextColor = Color.FromRgb(255, 255, 255);
-            this.CornerRadius = 10;
+
 
             this.Pressed += OnPressed;
             this.Released += OnReleased;
         }
 
-        public void OnPressed (object sender, EventArgs e)
+
+        public void OnPressed(object sender, EventArgs e)
         {
-            this.BackgroundColor = Color.FromRgb(200, 0, 0);
+            this.BackgroundColor = Color.FromRgb(0, 0, 0);
         }
 
-        public void OnReleased (object sender, EventArgs e)
+        public void OnReleased(object sender, EventArgs e)
         {
             this.BackgroundColor = Color.FromRgb(255, 0, 0);
         }

@@ -3,44 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|c:\\users\\sf319\\documents\\foodapp\\foodapp\\custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|solutionrelative:custombutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|c:\\users\\sf319\\documents\\foodapp\\foodapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|c:\\users\\sf319\\documents\\foodapp\\foodapp\\mainpageviewmodel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|solutionrelative:mainpageviewmodel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|c:\\users\\sf319\\documents\\foodapp\\foodapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|c:\\users\\sf319\\documents\\foodapp\\foodapp\\welcomepageviewmodel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|solutionrelative:welcomepageviewmodel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|c:\\users\\sf319\\documents\\foodapp\\foodapp\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|solutionrelative:welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|c:\\users\\sf319\\documents\\foodapp\\foodapp\\mainpageviewmodel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|solutionrelative:mainpageviewmodel.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|c:\\users\\sf319\\documents\\foodapp\\foodapp\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|solutionrelative:welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|c:\\users\\sf319\\documents\\foodapp\\foodapp\\controllabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|solutionrelative:controllabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|c:\\users\\sf319\\documents\\foodapp\\foodapp\\welcomepageviewmodel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|solutionrelative:welcomepageviewmodel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|c:\\users\\sf319\\documents\\foodapp\\foodapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|c:\\users\\sf319\\documents\\foodapp\\foodapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|c:\\users\\sf319\\documents\\foodapp\\foodapp\\meal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|solutionrelative:meal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|c:\\users\\sf319\\documents\\foodapp\\foodapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|c:\\users\\sf319\\documents\\foodapp\\foodapp\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46936D70-12BF-4419-A219-2912C5C97091}|FoodApp.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -59,123 +39,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ControlLabel.cs",
-              "DocumentMoniker": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\ControlLabel.cs",
-              "RelativeDocumentMoniker": "ControlLabel.cs",
-              "ToolTip": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\ControlLabel.cs",
-              "RelativeToolTip": "ControlLabel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\Database.cs",
+              "RelativeDocumentMoniker": "Database.cs",
+              "ToolTip": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\Database.cs",
+              "RelativeToolTip": "Database.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAUwFgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T13:38:48.058Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomButton.cs",
-              "DocumentMoniker": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\CustomButton.cs",
-              "RelativeDocumentMoniker": "CustomButton.cs",
-              "ToolTip": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\CustomButton.cs",
-              "RelativeToolTip": "CustomButton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T13:28:21.339Z",
+              "WhenOpened": "2025-01-17T07:28:11.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\AppShell.xaml",
-              "RelativeDocumentMoniker": "AppShell.xaml",
-              "ToolTip": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\AppShell.xaml",
-              "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AgIAAAwAAAAAAAAAAIBJwA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-15T11:48:02.372Z"
+              "DocumentIndex": 3,
+              "Title": "WelcomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\WelcomePage.xaml.cs",
+              "RelativeDocumentMoniker": "WelcomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\WelcomePage.xaml.cs",
+              "RelativeToolTip": "WelcomePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T11:47:38.822Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "WelcomePageViewModel.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\WelcomePageViewModel.xaml.cs",
-              "RelativeDocumentMoniker": "WelcomePageViewModel.xaml.cs",
-              "ToolTip": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\WelcomePageViewModel.xaml.cs",
-              "RelativeToolTip": "WelcomePageViewModel.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T11:47:38.822Z"
+              "Title": "WelcomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\WelcomePage.xaml",
+              "RelativeDocumentMoniker": "WelcomePage.xaml",
+              "ToolTip": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\WelcomePage.xaml",
+              "RelativeToolTip": "WelcomePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-15T11:45:34.379Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainPageViewModel.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\MainPageViewModel.xaml.cs",
-              "RelativeDocumentMoniker": "MainPageViewModel.xaml.cs",
-              "ToolTip": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\MainPageViewModel.xaml.cs",
-              "RelativeToolTip": "MainPageViewModel.xaml.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAAwH0AAAA0AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAIwDcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T11:46:59.692Z"
+              "WhenOpened": "2025-01-15T11:46:59.692Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainPageViewModel.xaml",
-              "DocumentMoniker": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\MainPageViewModel.xaml",
-              "RelativeDocumentMoniker": "MainPageViewModel.xaml",
-              "ToolTip": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\MainPageViewModel.xaml",
-              "RelativeToolTip": "MainPageViewModel.xaml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADAAAAA3AAAAAAAAAA==",
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-15T11:46:55.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WelcomePageViewModel.xaml",
-              "DocumentMoniker": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\WelcomePageViewModel.xaml",
-              "RelativeDocumentMoniker": "WelcomePageViewModel.xaml",
-              "ToolTip": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\WelcomePageViewModel.xaml",
-              "RelativeToolTip": "WelcomePageViewModel.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-15T11:45:34.379Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T11:42:19.483Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T11:34:59.132Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Meal.cs",
-              "DocumentMoniker": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\Meal.cs",
-              "RelativeDocumentMoniker": "Meal.cs",
-              "ToolTip": "C:\\Users\\sf319\\Documents\\FoodApp\\FoodApp\\Meal.cs",
-              "RelativeToolTip": "Meal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T11:34:56.631Z"
+              "WhenOpened": "2025-01-15T11:46:55.948Z",
+              "EditorCaption": ""
             }
           ]
         }

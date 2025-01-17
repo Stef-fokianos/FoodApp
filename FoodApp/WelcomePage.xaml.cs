@@ -2,9 +2,9 @@
 
 namespace FoodApp
 {
-    public partial class WelcomePageViewModel : ContentPage
+    public partial class WelcomePage: ContentPage
     {
-        public WelcomePageViewModel()
+        public WelcomePage()
         {
             // Hide the navigation bar
             NavigationPage.SetHasNavigationBar(this, false);
@@ -19,7 +19,7 @@ namespace FoodApp
             LoadingIndicator.IsRunning = true;
 
             // Navigate to MainPage when button is clicked
-            await Navigation.PushAsync(new MainPageViewModel());
+            await Navigation.PushAsync(new MainPage());
 
             LoadingIndicator.IsVisible = false;
             LoadingIndicator.IsRunning = false;

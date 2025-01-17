@@ -15,58 +15,20 @@ namespace FoodApp
 
         public MainPage()
         {
-            
-
-            Database db = new Database();
-
-            //db.DeleteDatabase();
-
-            Initialize();
-
             InitializeComponent();
 
-            
-        }
-
-        private void Initialize()
-        {
             Database db = new Database();
+            var options = db.GetDB();
 
-            try
-            {
-                // Fetch items from the database synchronously
-                Options = db.GetItemsGroupedByCategory();
 
-                // Log the Options object to check if it's populated
-                Debug.WriteLine($"Total categories found: {Options.Count}");
+            // Display menu based on Item Category
+            Options = options.GroupBy(item => item.CategoryTitle)
+                             .Select(categoryTitle => new Database.FoodsCategorized(categoryTitle.Key, categoryTitle.ToList()))
+                             .ToList();
 
-                if (Options.Count == 0)
-                {
-                    Debug.WriteLine("Options is empty, adding data...");
-                    db.AddData();  // Add data synchronously
-                    Options = db.GetItemsGroupedByCategory();  // Fetch data again after adding it
-                }
+            BindingContext = this;
 
-                // Log the contents of Options to verify data
-                foreach (var category in Options)
-                {
-                    Debug.WriteLine($"Category: {category.CategoryTitle}, Items Count: {category.Items.Count}");
-                    foreach (var item in category.Items)
-                    {
-                        Debug.WriteLine($"FoodTitle: {item.FoodTitle}");
-                    }
-                }
 
-                MainThread.BeginInvokeOnMainThread(() =>
-                {
-                    // After data is loaded, set the BindingContext
-                    BindingContext = this;
-                });
-            }
-            catch (Exception ex)
-            {
-                Debug.WriteLine($"Error loading data: {ex.Message}");
-            }
         }
 
         public async void OnOrderClicked(object sender, EventArgs e)
@@ -157,7 +119,7 @@ namespace FoodApp
             }
         }
 
-        public async void OnCollectClicked(object sender, EventArgs e)
+        public void OnCollectClicked(object sender, EventArgs e)
         {
             ControlLabel lb = new ControlLabel();
 

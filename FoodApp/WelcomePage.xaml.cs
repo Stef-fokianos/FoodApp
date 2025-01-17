@@ -2,7 +2,7 @@
 
 namespace FoodApp
 {
-    public partial class WelcomePage: ContentPage
+    public partial class WelcomePage : ContentPage
     {
         public WelcomePage()
         {

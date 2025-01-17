@@ -1,0 +1,35 @@
+[
+    {
+      "CategoryTitle": "Pizza",
+      "FoodTitle": "Margarita"
+    },
+    {
+      "CategoryTitle": "Pizza",
+      "FoodTitle": "Special"
+    },
+    {
+      "CategoryTitle": "Pizza",
+      "FoodTitle": "Pepperoni"
+    },
+    {
+      "CategoryTitle": "Burger",
+      "FoodTitle": "Cheeseburger"
+    },
+    {
+      "CategoryTitle": "Burger",
+      "FoodTitle": "Bacon Cheese"
+    },
+    {
+      "CategoryTitle": "Burger",
+      "FoodTitle": "Crispy Chicken"
+    },
+    {
+      "CategoryTitle": "Pasta",
+      "FoodTitle": "Napolitana"
+    },
+    {
+      "CategoryTitle": "Pasta",
+      "FoodTitle": "Carbonara"
+    }
+  ]
+  

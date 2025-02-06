@@ -1,35 +1,53 @@
 [
     {
       "CategoryTitle": "Pizza",
-      "FoodTitle": "Margarita"
+      "FoodTitle": "Margarita",
+      "PreparationTime" : 10000
     },
     {
       "CategoryTitle": "Pizza",
-      "FoodTitle": "Special"
+      "FoodTitle": "BBQ",
+      "PreparationTime" : 10000
     },
     {
       "CategoryTitle": "Pizza",
-      "FoodTitle": "Pepperoni"
+      "FoodTitle": "Special",
+      "PreparationTime" : 10000
+    },
+    {
+      "CategoryTitle": "Pizza",
+      "FoodTitle": "Pepperoni",
+      "PreparationTime" : 10000
     },
     {
       "CategoryTitle": "Burger",
-      "FoodTitle": "Cheeseburger"
+      "FoodTitle": "Cheeseburger",
+      "PreparationTime" : 10000
     },
     {
       "CategoryTitle": "Burger",
-      "FoodTitle": "Bacon Cheese"
+      "FoodTitle": "Bacon Cheese",
+      "PreparationTime" : 10000
     },
     {
       "CategoryTitle": "Burger",
-      "FoodTitle": "Crispy Chicken"
+      "FoodTitle": "Crispy Chicken",
+      "PreparationTime" : 10000
     },
     {
       "CategoryTitle": "Pasta",
-      "FoodTitle": "Napolitana"
+      "FoodTitle": "Napolitana",
+      "PreparationTime" : 10000
     },
     {
       "CategoryTitle": "Pasta",
-      "FoodTitle": "Carbonara"
+      "FoodTitle": "Carbonara",
+      "PreparationTime" : 10000
+    },
+    {
+      "CategoryTitle": "Pasta",
+      "FoodTitle": "Arrabbiata",
+      "PreparationTime" : 10000
     }
   ]
   

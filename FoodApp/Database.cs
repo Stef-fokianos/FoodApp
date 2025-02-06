@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
+﻿using System.Diagnostics;
 using System.Reflection;
-using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
+
 
 namespace FoodApp
 {
@@ -15,22 +11,22 @@ namespace FoodApp
         {
             string CategoryTitle { get; set; }
             string FoodTitle { get; set; }
+            int PreparationTime { get; set; }
         }
 
         public class MenuItem : IFood
         {
             public string CategoryTitle { get; set; }
             public string FoodTitle { get; set; }
+            public int PreparationTime { get; set; }
 
-            public MenuItem()
-            {
+            public MenuItem(){}
 
-            }
-
-            public MenuItem(string category, string foodTitle)
+            public MenuItem(string category, string foodTitle, int preparationTime)
             {
                 CategoryTitle = category;
                 FoodTitle = foodTitle;
+                PreparationTime = preparationTime;
             }
         }
 
@@ -57,6 +53,7 @@ namespace FoodApp
 
                         if (options != null)
                         {
+                            
                             menuItems.AddRange(options);
                         }
                     }
@@ -81,6 +78,7 @@ namespace FoodApp
                 CategoryTitle = category;
             }
         }
+
 
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace FoodApp
+﻿using FoodApp.Views;
+
+namespace FoodApp
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new WelcomePage());
+            MainPage = new NavigationPage(new MainPage());
         }
     }
 }

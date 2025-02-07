@@ -2,52 +2,62 @@
     {
       "CategoryTitle": "Pizza",
       "FoodTitle": "Margarita",
-      "PreparationTime" : 10000
+      "PreparationTime" : 10000,
+      "Image": "margarita.png"
     },
     {
       "CategoryTitle": "Pizza",
       "FoodTitle": "BBQ",
-      "PreparationTime" : 10000
+      "PreparationTime" : 10000,
+      "Image": "bbq.png"
     },
     {
       "CategoryTitle": "Pizza",
       "FoodTitle": "Special",
-      "PreparationTime" : 10000
+      "PreparationTime" : 10000,
+      "Image": "special.png"
     },
     {
       "CategoryTitle": "Pizza",
       "FoodTitle": "Pepperoni",
-      "PreparationTime" : 10000
+      "PreparationTime" : 10000,
+      "Image": "pepperroni.png"
     },
     {
       "CategoryTitle": "Burger",
       "FoodTitle": "Cheeseburger",
-      "PreparationTime" : 10000
+      "PreparationTime" : 10000,
+      "Image": "cheeseburger.png"
     },
     {
       "CategoryTitle": "Burger",
       "FoodTitle": "Bacon Cheese",
-      "PreparationTime" : 10000
+      "PreparationTime" : 10000,
+      "Image": "baconcheese.png"
     },
     {
       "CategoryTitle": "Burger",
       "FoodTitle": "Crispy Chicken",
-      "PreparationTime" : 10000
+      "PreparationTime" : 10000,
+      "Image": "crispychicken.png"
     },
     {
       "CategoryTitle": "Pasta",
       "FoodTitle": "Napolitana",
-      "PreparationTime" : 10000
+      "PreparationTime" : 10000,
+      "Image": "napolitana.png"
     },
     {
       "CategoryTitle": "Pasta",
       "FoodTitle": "Carbonara",
-      "PreparationTime" : 10000
+      "PreparationTime" : 10000,
+      "Image": "carbonara.png"
     },
     {
       "CategoryTitle": "Pasta",
       "FoodTitle": "Arrabbiata",
-      "PreparationTime" : 10000
+      "PreparationTime" : 10000,
+      "Image": "arrabbiata.png"
     }
   ]
   

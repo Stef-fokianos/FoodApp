@@ -1,4 +1,4 @@
-﻿using static FoodApp.Database;
+﻿using static FoodApp.Menu;
 
 namespace FoodApp.ViewModels
 {
@@ -8,11 +8,11 @@ namespace FoodApp.ViewModels
 
         public List<FoodsCategorized> MenuCategorized { get; set; }
 
-        private Database _database;
+        private Menu _menu;
         public MainViewModel()
         {
-            _database = new Database();
-            MenuItems = _database.GetDB();
+            _menu = new Menu();
+            MenuItems = _menu.GetMenuItems();
             CategorizeMenuItems();
         }
 

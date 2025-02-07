@@ -5,13 +5,14 @@ using System.Text.Json;
 
 namespace FoodApp
 {
-    public class Database
+    public class Menu
     {
         public interface IFood
         {
             string CategoryTitle { get; set; }
             string FoodTitle { get; set; }
             int PreparationTime { get; set; }
+            public string Image { get; set; }
         }
 
         public class MenuItem : IFood
@@ -19,18 +20,21 @@ namespace FoodApp
             public string CategoryTitle { get; set; }
             public string FoodTitle { get; set; }
             public int PreparationTime { get; set; }
+            public string Image { get; set; }
+
 
             public MenuItem(){}
 
-            public MenuItem(string category, string foodTitle, int preparationTime)
+            public MenuItem(string category, string foodTitle, int preparationTime, string image)
             {
                 CategoryTitle = category;
                 FoodTitle = foodTitle;
                 PreparationTime = preparationTime;
+                Image = image;
             }
         }
 
-        public List<IFood> GetDB()
+        public List<IFood> GetMenuItems()
         {
             var menuItems = new List<IFood>();
 

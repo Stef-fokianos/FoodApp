@@ -1,4 +1,8 @@
 ﻿
+using System.Diagnostics;
+using FoodApp.ViewModels;
+using FoodApp.Views;
+
 namespace FoodApp.UIElements
 {
     public class CustomButton : Button
@@ -10,6 +14,35 @@ namespace FoodApp.UIElements
         }
     }
 
+    public class CustomWelcomeButton : CustomButton
+    {
+        public CustomWelcomeButton()
+        {
+            this.Text = "Take me there!";
+            this.TextColor = Color.FromRgb(255, 255, 255);
+            this.FontSize = 20;
+
+            this.BackgroundColor = Color.FromRgba(255, 255, 255, 0);
+
+            this.BorderWidth = 1;
+            this.BorderColor = Color.FromRgb(255, 255, 255);
+
+            this.HorizontalOptions = LayoutOptions.Center;
+            this.VerticalOptions = LayoutOptions.Center;
+
+            this.Clicked += OnClicked;
+        }
+        public async void OnClicked(object sender, EventArgs e)
+        {
+            Debug.WriteLine("WelcomeButtonClicked");
+            if (BindingContext is WelcomeViewModel welcomeViewModel)
+            {
+                await welcomeViewModel.NavigateToMainPage();
+            }
+
+        }
+    }
+
     public class CustomMenuButton : CustomButton
     {
         private Color _defaultColor;
@@ -17,10 +50,8 @@ namespace FoodApp.UIElements
 
         public CustomMenuButton()
         {
-            this.MinimumHeightRequest = 45;
-            this.HorizontalOptions = LayoutOptions.End;
-            this.VerticalOptions = LayoutOptions.Center;
             this.Margin = new Thickness(0, 0, 0, -10);
+            this.MinimumHeightRequest = 45;
 
             this.Pressed += OnPressed;
             this.Released += OnReleased;

@@ -4,7 +4,6 @@
              xmlns:vm="clr-namespace:FoodApp.ViewModels"
              xmlns:ui="clr-namespace:FoodApp.UIElements"
              x:Class="FoodApp.Views.MainPage"
-             Title="MainPage"
              BackgroundImageSource="main_page.jpg">
 
 
@@ -33,31 +32,56 @@
                         <Frame BorderColor="DarkGrey" Padding="5" Margin="2" BackgroundColor="#000000">
                             <StackLayout>
                                 <Grid ColumnDefinitions="*, Auto, Auto, Auto">
+                                    <Image 
+                                       Source="{Binding Image}"
+                                       HorizontalOptions="Center"
+                                       VerticalOptions="Start"
+                                       WidthRequest="300" 
+                                       HeightRequest="200"
+                                       Margin="0,10,0,0"/>
+
                                     <Label Text="{Binding FoodTitle}" 
                                        TextColor="white"
-                                       FontSize="18"
-                                       VerticalOptions="Center"/>
+                                       FontSize="20"
+                                       VerticalOptions="End"
+                                       HorizontalOptions="Center"
+                                       Margin="0,200,0,20"/>
 
+                                    <Label Text="{Binding Ingredients}"
+                                           TextColor="White"
+                                           VerticalOptions="End"
+                                           HorizontalOptions="Center"
+                                           LineBreakMode="WordWrap"
+                                           WidthRequest="250"
+                                           Margin="0,0,0,-4"/>
+                                    
                                     <ui:CustomOrderButton
                                         x:Name="OrderButton"
+                                        HorizontalOptions="End"
+                                        VerticalOptions="End"
                                         IsVisible="True"/>
 
                                     <ui:CustomCancelButton
                                         x:Name="CancelButton"
+                                        HorizontalOptions="End"
+                                        VerticalOptions="End"
                                         IsVisible="False"/>
 
                                     <ui:CustomCollectButton
                                         x:Name="CollectButton"
-                                        IsVisible="False"/>    
-
+                                        HorizontalOptions="End"
+                                        VerticalOptions="End"
+                                        IsVisible="False"/>
                                 </Grid>
+                             
+                                                            
                                 <Label x:Name="StatusLabel"
                                     Text=""
                                     FontSize="16"
                                     TextColor="Gray"
                                     VerticalOptions="Center"
-                                    HorizontalOptions="Start"
-                                    Margin="0,-10,0,0"/>
+                                    HorizontalOptions="Center"
+                                    Margin="0,10,0,0"/>
                             </StackLayout>
                         </Frame>
                     </DataTemplate>

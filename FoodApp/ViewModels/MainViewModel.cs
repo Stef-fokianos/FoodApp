@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using FoodApp.UIElements;
 using static FoodApp.Database;
-=======
-﻿using static FoodApp.Menu;
->>>>>>> origin/main
 
 namespace FoodApp.ViewModels
 {
@@ -14,7 +10,6 @@ namespace FoodApp.ViewModels
 
         public List<FoodsCategorized> MenuCategorized { get; set; }
 
-<<<<<<< HEAD
         private Database _menu;
 
         [ObservableProperty]
@@ -26,12 +21,6 @@ namespace FoodApp.ViewModels
         public MainViewModel()
         {
             _menu = new Database();
-=======
-        private Menu _menu;
-        public MainViewModel()
-        {
-            _menu = new Menu();
->>>>>>> origin/main
             MenuItems = _menu.GetMenuItems();
             CategorizeMenuItems();
 

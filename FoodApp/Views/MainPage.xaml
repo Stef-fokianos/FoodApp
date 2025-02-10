@@ -3,12 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:vm="clr-namespace:FoodApp.ViewModels"
              xmlns:ui="clr-namespace:FoodApp.UIElements"
-<<<<<<< HEAD
              x:Class="FoodApp.Views.MainPage">
-=======
-             x:Class="FoodApp.Views.MainPage"
-             BackgroundImageSource="main_page.jpg">
->>>>>>> origin/main
 
     <Grid>
         <Image 
@@ -118,76 +113,7 @@
                             Text="{Binding LastOrder.FoodTitle}"
                             TextColor="white"
                             FontSize="20"
-<<<<<<< HEAD
                             HorizontalOptions="Center"/>
-=======
-                            HorizontalOptions="Start"
-                            Margin="0,0,0,10"/>
-                    </DataTemplate>
-                </CollectionView.GroupHeaderTemplate>
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <Frame BorderColor="DarkGrey" Padding="5" Margin="2" BackgroundColor="#000000">
-                            <StackLayout>
-                                <Grid ColumnDefinitions="*, Auto, Auto, Auto">
-                                    <Image 
-                                       Source="{Binding Image}"
-                                       HorizontalOptions="Center"
-                                       VerticalOptions="Start"
-                                       WidthRequest="300" 
-                                       HeightRequest="200"
-                                       Margin="0,10,0,0"/>
-
-                                    <Label Text="{Binding FoodTitle}" 
-                                       TextColor="white"
-                                       FontSize="20"
-                                       VerticalOptions="End"
-                                       HorizontalOptions="Center"
-                                       Margin="0,200,0,20"/>
-
-                                    <Label Text="{Binding Ingredients}"
-                                           TextColor="White"
-                                           VerticalOptions="End"
-                                           HorizontalOptions="Center"
-                                           LineBreakMode="WordWrap"
-                                           WidthRequest="250"
-                                           Margin="0,0,0,-4"/>
-                                    
-                                    <ui:CustomOrderButton
-                                        x:Name="OrderButton"
-                                        HorizontalOptions="End"
-                                        VerticalOptions="End"
-                                        IsVisible="True"/>
-
-                                    <ui:CustomCancelButton
-                                        x:Name="CancelButton"
-                                        HorizontalOptions="End"
-                                        VerticalOptions="End"
-                                        IsVisible="False"/>
-
-                                    <ui:CustomCollectButton
-                                        x:Name="CollectButton"
-                                        HorizontalOptions="End"
-                                        VerticalOptions="End"
-                                        IsVisible="False"/>
-                                </Grid>
-                             
-                                                            
-                                <Label x:Name="StatusLabel"
-                                    Text=""
-                                    FontSize="16"
-                                    TextColor="Gray"
-                                    VerticalOptions="Center"
-                                    HorizontalOptions="Center"
-                                    Margin="0,10,0,0"/>
-                            </StackLayout>
-                        </Frame>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
-        </StackLayout>
-    </ScrollView>
->>>>>>> origin/main
 
                     </StackLayout>
                 </ui:CustomMenuItemFrame>

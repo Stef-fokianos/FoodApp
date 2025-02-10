@@ -1,4 +1,8 @@
 ﻿
+using System.Diagnostics;
+using FoodApp.ViewModels;
+using FoodApp.Views;
+
 namespace FoodApp.UIElements
 {
     public class CustomButton : Button
@@ -6,7 +10,33 @@ namespace FoodApp.UIElements
         public CustomButton()
         {
             this.CornerRadius = 10;
-            this.Padding = 10;
+        }
+    }
+
+    public class CustomWelcomeButton : CustomButton
+    {
+        public CustomWelcomeButton()
+        {
+            this.Text = "Take me there!";
+            this.TextColor = Color.FromRgb(255, 255, 255);
+            this.FontSize = 20;
+
+            this.BackgroundColor = Color.FromRgba(255, 255, 255, 0);
+
+            this.BorderWidth = 1;
+            this.BorderColor = Color.FromRgb(255, 255, 255);
+
+            this.HorizontalOptions = LayoutOptions.Center;
+            this.VerticalOptions = LayoutOptions.Center;
+
+            this.Clicked += OnClicked;
+        }
+        public async void OnClicked(object sender, EventArgs e)
+        {
+            if (BindingContext is WelcomeViewModel welcomeViewModel)
+            {
+                await welcomeViewModel.NavigateToMainPage();
+            }
         }
     }
 
@@ -15,12 +45,15 @@ namespace FoodApp.UIElements
         private Color _defaultColor;
         private Color _pressedColor;
 
+        public CustomButtonAction _customButtonAction = new CustomButtonAction();
+
         public CustomMenuButton()
         {
-            this.MinimumHeightRequest = 45;
-            this.HorizontalOptions = LayoutOptions.End;
-            this.VerticalOptions = LayoutOptions.Center;
             this.Margin = new Thickness(0, 0, 0, -10);
+            this.MinimumHeightRequest = 45;
+            this.Padding = 10;
+            this.HorizontalOptions = LayoutOptions.End;
+            this.VerticalOptions= LayoutOptions.End;
 
             this.Pressed += OnPressed;
             this.Released += OnReleased;
@@ -46,7 +79,6 @@ namespace FoodApp.UIElements
 
     class CustomOrderButton : CustomMenuButton
     {
-        private Meal meal = new Meal();
         public CancellationTokenSource CancellationTokenSource { get; set; }
         public CustomOrderButton()
         {
@@ -62,14 +94,13 @@ namespace FoodApp.UIElements
 
         public async Task OnClickedAsync(object sender)
         {
-            await meal.OnOrderClickedAsync(sender);
+            await _customButtonAction.OnOrderClickedAsync(sender);
         }
     }
 
 
     class CustomCancelButton : CustomMenuButton
     {
-        Meal meal = new Meal();
         public CustomCancelButton()
         {
             this.Text = "Cancel";
@@ -79,14 +110,13 @@ namespace FoodApp.UIElements
         }
         public override void OnClicked(object sender, EventArgs e)
         {
-            meal.OnCancelClicked(sender);
+            _customButtonAction.OnCancelClicked(sender);
         }
     }
 
 
     class CustomCollectButton : CustomMenuButton
     {
-        Meal meal = new Meal();
         public CustomCollectButton()
         {
             this.Text = "Collect";
@@ -97,7 +127,7 @@ namespace FoodApp.UIElements
         }
         public override void OnClicked(object sender, EventArgs e)
         {
-            meal.OnCollectClicked(sender);
+            _customButtonAction.OnCollectClicked(sender);
         }
 
     }

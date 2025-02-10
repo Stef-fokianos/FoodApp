@@ -1,36 +1,10 @@
 ﻿
-using FoodApp.UIElements;
-
-namespace FoodApp
+namespace FoodApp.UIElements
 {
-    public class Meal
+    public class CustomButtonAction
     {
         ElementFunction _elementFunction = new ElementFunction();
-
-        public async Task<bool> PrepareMealAsync(CancellationToken cancellationToken)
-        {
-            try
-            {
-                for (int i = 0; i < 10; i++)
-                {
-                    if (cancellationToken.IsCancellationRequested)
-                    {
-                        return false;
-                    }
-                    await Task.Delay(1000);
-                }
-                return true;
-            }
-            catch (OperationCanceledException)
-            {
-                return false;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Unexpected error: {ex.Message}");
-                return false;
-            }
-        }
+        MealPreparation _mealPreparation = new MealPreparation();
 
         public async Task OnOrderClickedAsync(object sender)
         {
@@ -41,6 +15,12 @@ namespace FoodApp
             CustomCollectButton collectButton = _elementFunction.FindElementByName<CustomCollectButton>(parentLayout, "CollectButton");
             Label statusLabel = _elementFunction.FindElementByName<Label>(parentLayout, "StatusLabel");
 
+            //Find menuItem's title and image path to keep track of last order
+            var menuItem = orderButton?.BindingContext as Database.MenuItem;
+            Label lastFoodTitle = _elementFunction.FindElementByName<Label>(parentLayout, "FoodTitle");
+            Image lastImage = _elementFunction.FindElementByName<Image>(parentLayout, "Image");
+            
+
             //Make Cancel button available 
             cancelButton.IsVisible = true;
             orderButton.IsVisible = false;
@@ -50,13 +30,20 @@ namespace FoodApp
             orderButton.CancellationTokenSource = new CancellationTokenSource();
 
             //Start meal preparation
-            bool isPrepared = await PrepareMealAsync(orderButton.CancellationTokenSource.Token);
+            bool isPrepared = await _mealPreparation.PrepareMealAsync(menuItem.PreparationTimeInSec ,orderButton.CancellationTokenSource.Token);
 
             if (isPrepared)
             {
                 //Meal is ready 
                 cancelButton.IsVisible = false;
                 collectButton.IsVisible = true;
+
+                //Used to save last ordered item
+                string foodTitle = lastFoodTitle.Text;
+                string imageSource = lastImage.Source.ToString();
+
+                var lastOrder = new Database.MenuItem(foodTitle, imageSource);
+                await Database.SaveLastOrderAsync(lastOrder);
 
                 statusLabel.Text = "Your meal is ready.";
             }
@@ -107,7 +94,4 @@ namespace FoodApp
 
     }
 }
-
-
-
 

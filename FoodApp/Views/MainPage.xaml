@@ -3,72 +3,124 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:vm="clr-namespace:FoodApp.ViewModels"
              xmlns:ui="clr-namespace:FoodApp.UIElements"
-             x:Class="FoodApp.Views.MainPage"
-             Title="MainPage"
-             BackgroundImageSource="main_page.jpg">
+             x:Class="FoodApp.Views.MainPage">
 
+    <Grid>
+        <Image 
+            Source="mainpagebg.png"
+            Aspect="AspectFill"
+            VerticalOptions="FillAndExpand"
+            HorizontalOptions="FillAndExpand"/>
 
-    
-    <ScrollView>
-        <StackLayout Padding="20">
+        <ScrollView>
 
-            <Label Text="Our Menu" 
-                   TextColor="white"
-                   FontSize="24" 
-                   HorizontalOptions="Center"/>
+            <StackLayout 
+                Padding="20">
 
-            <CollectionView ItemsSource="{Binding MenuCategorized}" 
-                IsGrouped="True">
-                <CollectionView.GroupHeaderTemplate>
-                    <DataTemplate>
-                        <Label Text="{Binding CategoryTitle}" 
+                <Label 
+                    Text="Our Menu" 
+                    TextColor="white"
+                    FontSize="24" 
+                    HorizontalOptions="Center"/>
+
+                <CollectionView 
+                    ItemsSource="{Binding MenuCategorized}" 
+                    IsGrouped="True">
+
+                    <CollectionView.GroupHeaderTemplate>
+
+                        <DataTemplate>
+                            <Label 
+                                Text="{Binding CategoryTitle}" 
+                                x:Name="CategoryTitle"
+                                TextTransform="Uppercase"
+                                TextColor="white"
+                                FontSize="24"
+                                HorizontalOptions="Start"
+                                Margin="0,0,0,10"/>
+                        </DataTemplate>
+                    </CollectionView.GroupHeaderTemplate>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+
+                            <ui:CustomMenuItemFrame>
+
+                                <StackLayout>
+                                    <Grid 
+                                        ColumnDefinitions="Auto, Auto, Auto" 
+                                        RowDefinitions="Auto,Auto,Auto">
+
+                                        <ui:CustomMenuItemImage
+                                            x:Name="Image"
+                                            Source="{Binding Image}"/>
+
+                                        <Label 
+                                            x:Name="FoodTitle"
+                                            Text="{Binding FoodTitle}" 
+                                            TextColor="white"
+                                            FontSize="20"
+                                            VerticalOptions="End"
+                                            HorizontalOptions="Center"
+                                            Margin="0,220,0,-10"/>
+
+                                        <ui:CustomOrderButton
+                                            x:Name="OrderButton"
+                                            IsVisible="True"/>
+
+                                        <ui:CustomCancelButton
+                                            x:Name="CancelButton"
+                                            IsVisible="False"/>
+
+                                        <ui:CustomCollectButton
+                                            x:Name="CollectButton"
+                                            IsVisible="False"/>
+                                    </Grid>
+
+                                    <Label 
+                                        x:Name="StatusLabel"
+                                        Text=""
+                                        FontSize="16"
+                                        TextColor="Gray"
+                                        VerticalOptions="Center"
+                                        HorizontalOptions="Center"
+                                        Margin="0,10,0,0"/>
+
+                                </StackLayout>
+                            </ui:CustomMenuItemFrame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+
+                <Label 
+                    x:Name="LastItem"
+                    Text="Can't decide? You seem to like this one :"
+                    FontSize="16"
+                    TextColor="white"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Margin="0,10,0,0"
+                    IsVisible = "{Binding HasLastOrder}"/>
+
+                <ui:CustomMenuItemFrame
+                    IsVisible="{Binding HasLastOrder}">
+
+                    <StackLayout>
+                        <ui:CustomMenuItemImage
+                            Source="{Binding LastOrder.Image}"/>
+
+                        <Label 
+                            Text="{Binding LastOrder.FoodTitle}"
                             TextColor="white"
                             FontSize="20"
-                            HorizontalOptions="Start"
-                            Margin="0,0,0,10"/>
-                    </DataTemplate>
-                </CollectionView.GroupHeaderTemplate>
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <Frame BorderColor="DarkGrey" Padding="5" Margin="2" BackgroundColor="#000000">
-                            <StackLayout>
-                                <Grid ColumnDefinitions="*, Auto, Auto, Auto">
-                                    <Label Text="{Binding FoodTitle}" 
-                                       TextColor="white"
-                                       FontSize="18"
-                                       VerticalOptions="Center"/>
+                            HorizontalOptions="Center"/>
 
-                                    <ui:CustomOrderButton
-                                        x:Name="OrderButton"
-                                        IsVisible="True"/>
-
-                                    <ui:CustomCancelButton
-                                        x:Name="CancelButton"
-                                        IsVisible="False"/>
-
-                                    <ui:CustomCollectButton
-                                        x:Name="CollectButton"
-                                        IsVisible="False"/>    
-
-                                </Grid>
-                                <Label x:Name="StatusLabel"
-                                    Text=""
-                                    FontSize="16"
-                                    TextColor="Gray"
-                                    VerticalOptions="Center"
-                                    HorizontalOptions="Start"
-                                    Margin="0,-10,0,0"/>
-                            </StackLayout>
-                        </Frame>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
-        </StackLayout>
-    </ScrollView>
-
+                    </StackLayout>
+                </ui:CustomMenuItemFrame>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
 </ContentPage>
-
-
 
 
               

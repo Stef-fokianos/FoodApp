@@ -56,13 +56,22 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="Commands\**" />
+	  <Compile Remove="Commands\**" />
+	  <EmbeddedResource Remove="Commands\**" />
+	  <MauiCss Remove="Commands\**" />
+	  <MauiXaml Remove="Commands\**" />
+	  <None Remove="Commands\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Resources\AppIcon\appicon.svg" />
 	  <None Remove="Resources\AppIcon\appiconfg.svg" />
 	  <None Remove="Resources\menu.json" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <EmbeddedResource Include="Resources\menu.json">
+	  <EmbeddedResource Include="Data\menu.json">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </EmbeddedResource>
 	</ItemGroup>
@@ -87,10 +96,9 @@
 	  <MauiXaml Update="Views\MainPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	</ItemGroup>
-	
-	<ItemGroup>
-	  <Folder Include="Commands\" />
+	  <MauiXaml Update="Views\WelcomePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 	

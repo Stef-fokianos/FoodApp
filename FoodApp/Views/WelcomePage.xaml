@@ -4,6 +4,7 @@
              xmlns:ui="clr-namespace:FoodApp.UIElements"
              x:Class="FoodApp.Views.WelcomePage"
              BackgroundImageSource="welcome_page.jpg">
+<<<<<<< HEAD
     <Grid>
         <Image 
             Source="welcomepagebg.png"
@@ -37,4 +38,23 @@
                 Margin="0,20,0,0"/>
         </StackLayout>
     </Grid>
+=======
+
+    <StackLayout Padding="20"
+                 VerticalOptions="Center"
+                 HorizontalOptions="Center">
+
+        <ui:CustomWelcomeButton/>
+
+        <ActivityIndicator x:Name="LoadingIndicator"
+                           IsRunning="{Binding IsLoading}"
+                           IsVisible="{Binding IsLoading}"
+                           Color="White"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center"
+                           WidthRequest="50"
+                           HeightRequest="50"
+                           Margin="0,20,0,0"/>
+    </StackLayout>
+>>>>>>> origin/main
 </ContentPage>

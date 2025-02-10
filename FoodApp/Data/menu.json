@@ -2,61 +2,101 @@
     {
       "CategoryTitle": "Pizza",
       "FoodTitle": "Margarita",
+<<<<<<< HEAD:FoodApp/Data/menu.json
       "PreparationTimeInSec" : 10,
+=======
+      "PreparationTime" : 10000,
+>>>>>>> origin/main:FoodApp/Resources/menu.json
       "Image": "margarita.png"
     },
     {
       "CategoryTitle": "Pizza",
       "FoodTitle": "BBQ",
+<<<<<<< HEAD:FoodApp/Data/menu.json
       "PreparationTimeInSec" : 10,
+=======
+      "PreparationTime" : 10000,
+>>>>>>> origin/main:FoodApp/Resources/menu.json
       "Image": "bbq.png"
     },
     {
       "CategoryTitle": "Pizza",
       "FoodTitle": "Special",
+<<<<<<< HEAD:FoodApp/Data/menu.json
       "PreparationTimeInSec" : 10,
+=======
+      "PreparationTime" : 10000,
+>>>>>>> origin/main:FoodApp/Resources/menu.json
       "Image": "special.png"
     },
     {
       "CategoryTitle": "Pizza",
       "FoodTitle": "Pepperoni",
+<<<<<<< HEAD:FoodApp/Data/menu.json
       "PreparationTimeInSec" : 10,
+=======
+      "PreparationTime" : 10000,
+>>>>>>> origin/main:FoodApp/Resources/menu.json
       "Image": "pepperroni.png"
     },
     {
       "CategoryTitle": "Burger",
       "FoodTitle": "Cheeseburger",
+<<<<<<< HEAD:FoodApp/Data/menu.json
       "PreparationTimeInSec" : 10,
+=======
+      "PreparationTime" : 10000,
+>>>>>>> origin/main:FoodApp/Resources/menu.json
       "Image": "cheeseburger.png"
     },
     {
       "CategoryTitle": "Burger",
       "FoodTitle": "Bacon Cheese",
+<<<<<<< HEAD:FoodApp/Data/menu.json
       "PreparationTimeInSec" : 10,
+=======
+      "PreparationTime" : 10000,
+>>>>>>> origin/main:FoodApp/Resources/menu.json
       "Image": "baconcheese.png"
     },
     {
       "CategoryTitle": "Burger",
       "FoodTitle": "Crispy Chicken",
+<<<<<<< HEAD:FoodApp/Data/menu.json
       "PreparationTimeInSec" : 10,
+=======
+      "PreparationTime" : 10000,
+>>>>>>> origin/main:FoodApp/Resources/menu.json
       "Image": "crispychicken.png"
     },
     {
       "CategoryTitle": "Pasta",
       "FoodTitle": "Napolitana",
+<<<<<<< HEAD:FoodApp/Data/menu.json
       "PreparationTimeInSec" : 10,
+=======
+      "PreparationTime" : 10000,
+>>>>>>> origin/main:FoodApp/Resources/menu.json
       "Image": "napolitana.png"
     },
     {
       "CategoryTitle": "Pasta",
       "FoodTitle": "Carbonara",
+<<<<<<< HEAD:FoodApp/Data/menu.json
       "PreparationTimeInSec" : 10,
+=======
+      "PreparationTime" : 10000,
+>>>>>>> origin/main:FoodApp/Resources/menu.json
       "Image": "carbonara.png"
     },
     {
       "CategoryTitle": "Pasta",
       "FoodTitle": "Arrabbiata",
+<<<<<<< HEAD:FoodApp/Data/menu.json
       "PreparationTimeInSec" : 10,
+=======
+      "PreparationTime" : 10000,
+>>>>>>> origin/main:FoodApp/Resources/menu.json
       "Image": "arrabbiata.png"
     }
   ]

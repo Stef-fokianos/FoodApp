@@ -19,5 +19,11 @@ public partial class WelcomeViewModel : ObservableObject
 
         await Application.Current.MainPage.Navigation.PushAsync(new MainPage());
         IsLoading = false;
+<<<<<<< HEAD
     }  
+=======
+    }
+
+    
+>>>>>>> origin/main
 }
